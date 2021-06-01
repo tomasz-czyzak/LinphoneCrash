@@ -1,7 +1,7 @@
 # LinphoneCrash
 
-1. clone repo to some <dir>
-2. cd <dir>
+1. clone repo
+2. cd repo dir
 3. pod install
 4. open LinphoneCrash.xcworkspace
 5. start app (device or simulator)

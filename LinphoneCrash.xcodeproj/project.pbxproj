@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23730791CEE13F6D6EC7BF79 /* Pods_LinphoneCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776A894DCEC10774EA0D1947 /* Pods_LinphoneCrash.framework */; };
+		28A6C838266671BE00C4931D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28A6C837266671BE00C4931D /* GoogleService-Info.plist */; };
+		28A6C83A26667E0600C4931D /* LinphoneLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6C83926667E0600C4931D /* LinphoneLogManager.swift */; };
+		28A6C83D26667E4100C4931D /* LinphoneCoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6C83C26667E4100C4931D /* LinphoneCoreManager.swift */; };
+		28EB40782642C40C00019154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EB40772642C40C00019154 /* AppDelegate.swift */; };
+		28EB407A2642C40C00019154 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EB40792642C40C00019154 /* SceneDelegate.swift */; };
+		28EB407C2642C40C00019154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EB407B2642C40C00019154 /* ViewController.swift */; };
+		28EB407F2642C40C00019154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EB407D2642C40C00019154 /* Main.storyboard */; };
+		28EB40812642C40D00019154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EB40802642C40D00019154 /* Assets.xcassets */; };
+		28EB40842642C40D00019154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EB40822642C40D00019154 /* LaunchScreen.storyboard */; };
+		28EB40912642C50100019154 /* CallingDomainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EB40902642C50100019154 /* CallingDomainManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28A6C837266671BE00C4931D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28A6C83926667E0600C4931D /* LinphoneLogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinphoneLogManager.swift; sourceTree = "<group>"; };
+		28A6C83C26667E4100C4931D /* LinphoneCoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinphoneCoreManager.swift; sourceTree = "<group>"; };
+		28EB40742642C40C00019154 /* LinphoneCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinphoneCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EB40772642C40C00019154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28EB40792642C40C00019154 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28EB407B2642C40C00019154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28EB407E2642C40C00019154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28EB40802642C40D00019154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28EB40832642C40D00019154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28EB40852642C40D00019154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28EB40902642C50100019154 /* CallingDomainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingDomainManager.swift; sourceTree = "<group>"; };
+		776A894DCEC10774EA0D1947 /* Pods_LinphoneCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinphoneCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DDFC7300F06C48B49B0430 /* Pods-LinphoneCrash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinphoneCrash.debug.xcconfig"; path = "Target Support Files/Pods-LinphoneCrash/Pods-LinphoneCrash.debug.xcconfig"; sourceTree = "<group>"; };
+		F7480A729E215B1674504E9B /* Pods-LinphoneCrash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinphoneCrash.release.xcconfig"; path = "Target Support Files/Pods-LinphoneCrash/Pods-LinphoneCrash.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28EB40712642C40C00019154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23730791CEE13F6D6EC7BF79 /* Pods_LinphoneCrash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD63603B2D23EB4194F4562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				776A894DCEC10774EA0D1947 /* Pods_LinphoneCrash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28A6C83B26667E2500C4931D /* Linphone */ = {
+			isa = PBXGroup;
+			children = (
+				28EB40902642C50100019154 /* CallingDomainManager.swift */,
+				28A6C83926667E0600C4931D /* LinphoneLogManager.swift */,
+				28A6C83C26667E4100C4931D /* LinphoneCoreManager.swift */,
+			);
+			path = Linphone;
+			sourceTree = "<group>";
+		};
+		28EB406B2642C40C00019154 = {
+			isa = PBXGroup;
+			children = (
+				28EB40762642C40C00019154 /* LinphoneCrash */,
+				28EB40752642C40C00019154 /* Products */,
+				6E59E17D698447E78D3215CA /* Pods */,
+				0BD63603B2D23EB4194F4562 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28EB40752642C40C00019154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28EB40742642C40C00019154 /* LinphoneCrash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EB40762642C40C00019154 /* LinphoneCrash */ = {
+			isa = PBXGroup;
+			children = (
+				28A6C83B26667E2500C4931D /* Linphone */,
+				28EB40772642C40C00019154 /* AppDelegate.swift */,
+				28EB40802642C40D00019154 /* Assets.xcassets */,
+				28A6C837266671BE00C4931D /* GoogleService-Info.plist */,
+				28EB40852642C40D00019154 /* Info.plist */,
+				28EB40822642C40D00019154 /* LaunchScreen.storyboard */,
+				28EB407D2642C40C00019154 /* Main.storyboard */,
+				28EB40792642C40C00019154 /* SceneDelegate.swift */,
+				28EB407B2642C40C00019154 /* ViewController.swift */,
+			);
+			path = LinphoneCrash;
+			sourceTree = "<group>";
+		};
+		6E59E17D698447E78D3215CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85DDFC7300F06C48B49B0430 /* Pods-LinphoneCrash.debug.xcconfig */,
+				F7480A729E215B1674504E9B /* Pods-LinphoneCrash.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28EB40732642C40C00019154 /* LinphoneCrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EB40882642C40D00019154 /* Build configuration list for PBXNativeTarget "LinphoneCrash" */;
+			buildPhases = (
+				3FA6F104A3E0E176F6672FEB /* [CP] Check Pods Manifest.lock */,
+				28EB40702642C40C00019154 /* Sources */,
+				28EB40712642C40C00019154 /* Frameworks */,
+				28EB40722642C40C00019154 /* Resources */,
+				4E6A08709643895B54996820 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinphoneCrash;
+			productName = LinphoneCrash;
+			productReference = 28EB40742642C40C00019154 /* LinphoneCrash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28EB406C2642C40C00019154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					28EB40732642C40C00019154 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 28EB406F2642C40C00019154 /* Build configuration list for PBXProject "LinphoneCrash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28EB406B2642C40C00019154;
+			productRefGroup = 28EB40752642C40C00019154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28EB40732642C40C00019154 /* LinphoneCrash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28EB40722642C40C00019154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EB40842642C40D00019154 /* LaunchScreen.storyboard in Resources */,
+				28A6C838266671BE00C4931D /* GoogleService-Info.plist in Resources */,
+				28EB40812642C40D00019154 /* Assets.xcassets in Resources */,
+				28EB407F2642C40C00019154 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FA6F104A3E0E176F6672FEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinphoneCrash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E6A08709643895B54996820 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LinphoneCrash/Pods-LinphoneCrash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LinphoneCrash/Pods-LinphoneCrash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LinphoneCrash/Pods-LinphoneCrash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28EB40702642C40C00019154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EB407C2642C40C00019154 /* ViewController.swift in Sources */,
+				28A6C83D26667E4100C4931D /* LinphoneCoreManager.swift in Sources */,
+				28A6C83A26667E0600C4931D /* LinphoneLogManager.swift in Sources */,
+				28EB40782642C40C00019154 /* AppDelegate.swift in Sources */,
+				28EB40912642C50100019154 /* CallingDomainManager.swift in Sources */,
+				28EB407A2642C40C00019154 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28EB407D2642C40C00019154 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EB407E2642C40C00019154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28EB40822642C40D00019154 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EB40832642C40D00019154 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28EB40862642C40D00019154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28EB40872642C40D00019154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28EB40892642C40D00019154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85DDFC7300F06C48B49B0430 /* Pods-LinphoneCrash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRHFV79LET;
+				INFOPLIST_FILE = LinphoneCrash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaszczyzak.LinphoneCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28EB408A2642C40D00019154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7480A729E215B1674504E9B /* Pods-LinphoneCrash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRHFV79LET;
+				INFOPLIST_FILE = LinphoneCrash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaszczyzak.LinphoneCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28EB406F2642C40C00019154 /* Build configuration list for PBXProject "LinphoneCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EB40862642C40D00019154 /* Debug */,
+				28EB40872642C40D00019154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EB40882642C40D00019154 /* Build configuration list for PBXNativeTarget "LinphoneCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EB40892642C40D00019154 /* Debug */,
+				28EB408A2642C40D00019154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28EB406C2642C40C00019154 /* Project object */;
+}

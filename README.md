@@ -32,4 +32,4 @@ Application is running but no more firebase events are being sent to backend due
 
 
 ## Initial investigation:
-Caused by calling `linphoneCore?.stop()` during second second stop UI action
+Caused by calling `linphoneCore?.stop()` 

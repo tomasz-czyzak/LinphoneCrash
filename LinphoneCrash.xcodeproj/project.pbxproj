@@ -24,6 +24,7 @@
 		28A6C837266671BE00C4931D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		28A6C83926667E0600C4931D /* LinphoneLogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinphoneLogManager.swift; sourceTree = "<group>"; };
 		28A6C83C26667E4100C4931D /* LinphoneCoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinphoneCoreManager.swift; sourceTree = "<group>"; };
+		28AF70EE26676E41008F3D7F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		28EB40742642C40C00019154 /* LinphoneCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinphoneCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EB40772642C40C00019154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28EB40792642C40C00019154 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		28EB406B2642C40C00019154 = {
 			isa = PBXGroup;
 			children = (
+				28AF70EE26676E41008F3D7F /* README.md */,
 				28EB40762642C40C00019154 /* LinphoneCrash */,
 				28EB40752642C40C00019154 /* Products */,
 				6E59E17D698447E78D3215CA /* Pods */,
